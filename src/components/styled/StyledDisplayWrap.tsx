@@ -10,13 +10,21 @@ const StyledDisplayWrap = styled.div`
   align-items: center;
   width: 80%;
   margin-top: 10%;
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     width: 100%;
     align-items: unset;
+    flex-direction: column;
+    .car-card{
+      margin-bottom: 2rem;
+      img{
+        height: 70px;
+        width: 130px;
+      }
+    }
   }
   h1 {
     font-weight: bold;
-    font-color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);
   }
   .car-card {
     background-color: rgba(255, 255, 255, 0.7);

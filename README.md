@@ -1,6 +1,6 @@
 # Testing project for "Tubics"
 
-React/TypeScript + Hooks project that handles the problem of number splitting on smaller parts without duplicates and zero values.<br />
+React/TypeScript + Hooks + Firebase project that handles the problem of number splitting on smaller parts without duplicates and zero values.<br />
 [StyledComponents](https://styled-components.com/) and SASS was used for styling.<br />
 ContextAPI was implemented for state management.<br />
 We used [React-Hook-Form](https://react-hook-form.com/) for validation of input field.

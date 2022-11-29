@@ -8,12 +8,12 @@ We used [React-Hook-Form](https://react-hook-form.com/) for validation of input 
 Formatting configuration defined with ESLint and Prettier.<br />
 Working on JEST and React Testing library skills through this project. <br />
 
-Project is deployed to [Github Pages](https://pages.github.com/), and demo can be seen [here](https://stefanikolic018.github.io/CarsArmy/).
+Project is deployed to [Netlify](https://www.netlify.com/), and demo can be seen [here](https://car-army.netlify.app/).
 
 ## Back-end
 
 Because this was a relativly simple problem, we used [Google Firebase](https://firebase.google.com/) as a back-end service and we used its Cloud Firestore for the database.<br />
-<b style="color:red">\* Tried to put Firebase configuration into GitHub secrets, but the keys are going to be visible in the network tab. I was thinking about ENV file, but then GitHub would give me warnings, and because of all that configuration is called from it's own file because there is no way to secure those keys without a real back-end!</b>
+
 <b><u>Firebase Credentials:</u></b><br/>
 
 - Email: chadbutlerc@gmail.com
@@ -43,9 +43,10 @@ There is error handling for the following cases:
   <img src="/public/screenshots/required-number.png" alt="Required number" title="Required number" style="text-align: center">
 
 ## Available Scripts
+
 - Version of Node: 16.13.1<br />
 - Version of NPM: 8.5.5<br />
-In the project directory, you first need to run:
+  In the project directory, you first need to run:
 
 ### `npm install`
 

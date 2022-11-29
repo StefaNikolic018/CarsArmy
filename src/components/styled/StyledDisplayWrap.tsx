@@ -25,6 +25,7 @@ const StyledDisplayWrap = styled.div`
   h1 {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.7);
+    text-align: center;
   }
   .car-card {
     background-color: rgba(255, 255, 255, 0.7);

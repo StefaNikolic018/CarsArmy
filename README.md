@@ -3,7 +3,7 @@
 React/TypeScript + Hooks + Firebase project that handles the problem of number splitting on smaller parts without duplicates and zero values.<br />
 [StyledComponents](https://styled-components.com/) and SASS was used for styling.<br />
 ContextAPI was implemented for state management.<br />
-We used [React-Hook-Form](https://react-hook-form.com/) for validation of input field.
+We used [React-Hook-Form](https://react-hook-form.com/) for validation of input field.<br />
 Formatting configuration defined with ESLint and Prettier.<br />
 Working on JEST and React Testing library skills through this project. <br />
 
@@ -20,7 +20,7 @@ Because this was a relativly simple problem, we used [Google Firebase](https://f
 
 Database is called <u>cars-army</u> and looks like this:
 <img src="/public/screenshots/db.png" alt="DB" title="DB" style="text-align: center"><br/>
-Currently it's allowed to acces and modify data in there by anyone because rules are set for testing purposes only!
+<b>Currently it's allowed to acces and modify data in there by anyone because rules are set for testing purposes only!</b><br />
 <img src="/public/screenshots/rules.png" alt="Rules" title="Rules" style="text-align: center"><br/>
 
 ## How it works
